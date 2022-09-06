@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+img {
+    height: 100%;
+}
+
+/* General */
+
+body {
+    background-color: rgb(240, 240, 240);
+}
+
+/* Utlities */
+
+.container {
+    padding: 0 12vh;
+    width: 100%;
+}
+
+.filter {
+    backdrop-filter: grayscale(35%);
+    width: 100%;
+    margin: 0;
+}
+  
+.btn {
+    padding: 14px 10px;
+    border: none;
+    border-radius: 10px;
+}
+  
+.btn-blue {
+    background-color: #2871cc;
+    color: #fff;
+    font-weight: bold;
+    padding: 12px 22px;
+    border-radius: 30px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+/* Nav Bar*/
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    padding-top: 2vh;
+}
+
+.nav-logo {
+    margin-right: 5vw;
+}
+  
+.links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+}
+  
+.links > li {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.links > li:last-child {
+    margin-right: 0px;
+}
+
+.ham-img {
+    opacity: 40%;
+}
+
+/* Hero */
+
+.hero {
+    background: url("../images/slide9.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    position: relative;
+}
+
+.hero-content {
+    padding: auto 0 auto 0;
+    height: 90vh;
+}
+  
+.hero-heading {
+    font-size: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15vh;
+    text-align: center;
+    width: 50vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Foundations */
+
+.foundations-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 3vh 4vh;
+}
+
+.foundations-heading {
+    margin: 5vh auto 2vh auto;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    width: 70vw;
+}
+
+.foundations-img {
+    height: 10vh;
+    width: 5vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.foundations-h3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.foundations-content {
+    display: flex;
+    flex-direction: column;
+    width: 17vw;
+    background-color: #fff;
+    padding: 3vh 3vw;
+    text-align: center;
+    font-family: 'Crimson Text', sans-serif;
+}
+
+/* Explore the Vision */
+
+.vision-section {
+    background-image: url(../images/parallax-4.jpg);
+    margin-top: 5vh;
+    height: 80vh;
+    margin-bottom: 5vh;
+}
+
+.vision-heading {
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 7vh 0;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+.vision-img {
+    width: 40vw;
+    height: 45vh;
+    margin: auto;
+    align-self: center;
+    display: block;
+}
+
+/* Join BDD */
+
+.join-heading {
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 5vh;
+    padding-bottom: 7vh;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+.join-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 3vh 4vh;
+    margin-bottom: 20vh;
+}
+
+.join-img {
+    width: 30vw;
+    font-weight: 900;
+}
+
+.join-h3 {
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.join-content {
+    display: flex;
+    margin: 0 0.5vw;
+    flex-direction: column;
+    width: 17vw;
+    background-color: #fff;
+    padding: 3vh 3vw;
+    text-align: center;
+    font-family: 'Crimson Text', sans-serif;
+}
+
+.join-content > ul {
+    line-height: 150%;
+}
+
+.join-content > ul > button {
+    margin-top: 5vh;
+}
+
+.join-content:last-child > ul > button {
+    margin-top: 20vh;
+}
+
+/* Footer */
+
+.footer {
+    background-color: rgb(33, 33, 33);
+    padding: 5vh 15vw;
+    color: aliceblue;
+}
+
+.first-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-h4 {
+    margin: 50px 0 20px 0;
+    color: rgb(134, 134, 134);
+}
+
+.footer-form {
+    margin: 15% 0;
+}
+
+.first-footer > div {
+    width: 25%;
+    padding: 3%;
+}
+
+.first-footer > div:last-child {
+    width: 30%;
+}
+
+.first-footer > div > p {
+    line-height: 200%;
+}
+
+.lower-footer {
+    display: flex;
+    width: 100%;
+}
+
+
+
+
+
